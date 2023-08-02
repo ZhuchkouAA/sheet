@@ -2,10 +2,10 @@
   "name": "sheet",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "type": "module",
   "exports": {
-    "import": "lib/index.js"
+    "import": "./lib/index.js"
   },
   "scripts": {
     "build": "tsc"
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/ZhuchkouAA/sheet.git"
   },
-  "typings": "src/index.d.ts",
+  "typings": "./src/index.d.ts",
   "author": "",
   "license": "ISC",
   "bugs": {
