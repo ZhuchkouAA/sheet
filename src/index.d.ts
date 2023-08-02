@@ -1,1 +1,1 @@
-export default type sheet = () => {}
+export default type generate = () => {}
