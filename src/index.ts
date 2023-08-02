@@ -10,6 +10,7 @@ const generate = async (dataToFill: {}, filePath: string) => {
         console.log(coords, 'coords');
         await generateReportWithFormula(res, coords);
     }
+    return res;
 }
 export default generate;
 
